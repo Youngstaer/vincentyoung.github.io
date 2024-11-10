@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(sunset\ in\ jimbaran.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* Header / Personal Information */
+header {
+    text-align: center;
+    padding: 20px;
+   
+    color: white;
+}
+
+.profile-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+.intro {
+    margin-top: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+    background-color: transparent;
+    text-align: center;
+    color: blue;
+}
+
+#skills h2 {
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#experience {
+    padding: 20px;
+    background-color:transparent;
+    color: blue;
+}
+
+#experience h2 {
+    margin-bottom: 10px;
+}
+
+.experience-item {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.experience-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.experience-content {
+    flex: 1; 
+}
+
+.experience-item h3 {
+    margin-top: 0;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color:transparent;
+    text-align: center;
+    color: white;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+.quotes{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 0 10px #f5bd02;
+    margin-top: 10px;
+
+}
+.hobby{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border:solid 1px white
+    
+    
+
+}
+#navbar {
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px 0;
+    position: relative;
+    transition: top 0.3s;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hobby-list {
+    list-style-type: numbers; 
+    padding: 0; 
+    margin: 0; 
+    display: inline-block; 
+    text-align: left; 
+}
